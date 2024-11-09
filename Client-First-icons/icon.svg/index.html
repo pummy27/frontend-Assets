@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .arrow{
+            display: flex;
+            gap: 0px;
+        }
+      .line{
+        width: 50px;
+    height: 20px;
+    background-color: yellow;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+    position: relative;
+    margin: 30px 0px 0px 36px;
+    transform: rotateZ(-18deg);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+
+.curved-arrow {
+  /* content: ''; */
+  /* position: absolute; */
+  width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 25px solid yellow;
+    margin: 9px 33px 0px -3px;
+    /* border-top-left-radius: 10px; */
+    /* border-bottom-left-radius: 10px; */
+    transform: rotateZ(343deg);
+  /* border-top-left-radius: 10px; */
+  /* border-bottom-left-radius: 10px; */
+}
+.pillars{
+    display: flex;
+}
+.p1{
+    width: 20px;
+    height: 40px;
+    background-color: black;
+    margin: 17px 0px 0px 40px;
+    border-radius: 7px;
+}
+
+.p2{
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    margin: 7px 0px 0px 5px;
+    border-radius: 7px;
+}
+
+.p3{
+    width: 20px;
+    height: 60px;
+    background-color: black;
+    margin: -4px 0px 0px 5px;
+    border-radius: 7px;
+}
+    </style>
+</head>
+<body>
+    <div class="arrow">
+        <div class="line"></div>
+        <div class="curved-arrow"></div>
+    </div>
+    <div class="pillars">
+        <div class="p1"></div>
+        <div class="p2"></div>
+        <div class="p3"></div>
+    </div>
+ 
+</body>
+</html>
